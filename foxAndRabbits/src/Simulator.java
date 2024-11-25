@@ -13,8 +13,8 @@ public class Simulator {
         if (row <= 0 || col <= 0){
             System.out.println("The number of rows and columns must be greater than zero.");
             System.out.println("Using default values.");
-            row = 20;
-            col = 20;
+            row = 10;
+            col = 10;
         }
 
         animals = new ArrayList<Animal>();
